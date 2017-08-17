@@ -1,11 +1,11 @@
 /* global describe, expect, it */
 import DATA from '../DATA'
-import getProductsForOrder from './getProductsForOrder'
+import getTotalPriceForOrder from './getTotalPriceForOrder'
 
-describe('getProductsForOrder', () => {
+describe('getTotalPriceForOrder', () => {
   it(
     'is a function',
     () =>
-      expect(typeof getProductsForOrder).toBe('function')
+      expect(typeof getTotalPriceForOrder).toBe('function')
   )
 })
